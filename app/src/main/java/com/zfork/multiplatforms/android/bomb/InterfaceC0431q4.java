@@ -1,0 +1,6 @@
+package com.zfork.multiplatforms.android.bomb;
+
+/* JADX INFO: renamed from: com.zfork.multiplatforms.android.bomb.q4, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes3.dex */
+public interface InterfaceC0431q4 {
+}

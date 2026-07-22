@@ -1,0 +1,12 @@
+# 开发工具
+.idea/
+*.swp
+*.swo
+*.xml
+.vs/
+.vscode/
+.gradle/
+
+# 根目录
+gradlew
+gradlew.bat

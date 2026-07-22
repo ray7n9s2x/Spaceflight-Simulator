@@ -1,0 +1,21 @@
+package com.unity3d.player;
+
+import java.util.concurrent.Semaphore;
+
+/* JADX INFO: renamed from: com.unity3d.player.o1, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes2.dex */
+final class RunnableC0297o1 implements Runnable {
+    final /* synthetic */ Semaphore a;
+    final /* synthetic */ UnityPlayerForActivityOrService b;
+
+    RunnableC0297o1(UnityPlayerForActivityOrService unityPlayerForActivityOrService, Semaphore semaphore) {
+        this.b = unityPlayerForActivityOrService;
+        this.a = semaphore;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        this.b.shutdown();
+        this.a.release();
+    }
+}
